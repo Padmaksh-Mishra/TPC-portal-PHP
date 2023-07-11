@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div class="page">
+    
+    <form action="process_registration.php" method="post">
+
+      <div class="form">
+      	<h1>Student Registration Form</h1>
+        <input type="email" placeholder="Enter Email" name="email" required>
+        <input type="text" placeholder="Enter First Name" name="first_name" required>
+        <input type="text" placeholder="Enter Last Name" name="last_name" required>
+        <input type="password" placeholder="Enter Password" name="password" required>
+        <input type="password" placeholder="Confirm Password" name="confirm_password" required>
+        <button type="submit">Register</button>
+        <p class="message">Already have an account? <a href="student_login.html">Sign in</a>.</p>
+      </div>
+      </div>
+    </form>
+  </body>
+</html>

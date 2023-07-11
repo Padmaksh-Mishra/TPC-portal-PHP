@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="form">
+            <h1>Update Student Details</h1>
+            <form class="login-form" action="process_update_details.php" method="POST">
+                <input type="number" placeholder="Class 10 percentage %" name="class10" min="0" max="100" step="0.01" required>
+                <input type="number" placeholder="Class 12 percentage %" name="class12" min="0" max="100" step="0.01" required>
+                <input type="number" placeholder="cpi" name="cpi" min="0" max="10" step="0.01" required>
+                <input type="text" placeholder="Did you fail in any course (yes or no)" name="back" required>
+                <input type="number" placeholder="Enter your age" name="age" min="0" max="120" required>
+                <input type="text" placeholder="What are your specializations?" name="specialization" required>
+                <input type="text" placeholder="What are your areas of interest?" name="area_of_interest" required>
+                <input type="text" placeholder="Batch Year (2021 if you join in 2021)" name="batch_year" required>
+                <input type="text" placeholder="Please provied the link of your transcript" name="transcript_link" required>
+                <input type="text" placeholder="Please provnamee the link of your resume" name="resume_link" required>
+                <button type="submit" name="submit">Update</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
