@@ -4,31 +4,30 @@ Placement Portal is a web application designed to streamline the placement proce
 
 ## About
 
-About
-
 The Placement Portal simplifies the process of connecting students with companies for employment opportunities. It offers a user-friendly interface for students to browse available job listings, submit applications, and track their application status. Companies can create profiles, post job openings, review applicants, and schedule interviews with prospective candidates. The portal enhances efficiency and transparency in the placement process for both students and companies.
 
 ## Features
 
 Student :
+
     Browse and search job listings
     Create and manage a profile
     Submit applications to desired positions
-    Track application status
-    Receive notifications for interview invitations or rejections
+
 
 Company :
+
     Create and manage a company profile
     Post job openings
     Review and manage applicant profiles
-    Schedule interviews with selected candidates
-    Communicate with applicants through the portal
 
 TPC Admin:
+
 	Verify compaines
 	Verify students
 
 System Admin:
+
 	Can run sql queries.
 
 ## Contributers
